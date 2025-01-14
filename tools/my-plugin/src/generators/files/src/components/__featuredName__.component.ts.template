@@ -1,0 +1,10 @@
+export class <%= featuredName %> {
+    
+    productCategories: ProductCategory[] = [];
+
+    selectedProductCategory: ProductCategory;
+
+    loadProductCategories() {
+        throw new Error('Not implemented');
+    }
+}

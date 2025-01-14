@@ -80,7 +80,7 @@
       "executor": "@nx/web:file-server",
       "options": {
         "buildTarget": "angular-project:build",
-        "port": 4200,
+        "port": 4201,
         "staticFilePath": "dist/apps/angular-project/browser",
         "spa": true
       }
